@@ -1,0 +1,4 @@
+Validated 12,000 final predictions.
+Validated 31 fixed December predictions.
+Created chart: scorer_results/candidate_december.png
+Final validation metrics are calculated by Spotter after submission.

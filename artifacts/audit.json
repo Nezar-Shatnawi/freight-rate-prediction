@@ -1,0 +1,81 @@
+{
+  "development_rows": 48000,
+  "validation_rows": 12000,
+  "development_dates": [
+    "2025-01-01",
+    "2025-10-31"
+  ],
+  "validation_dates": [
+    "2025-11-01",
+    "2025-12-31"
+  ],
+  "missing_development": {
+    "load_id": 0,
+    "pickup": 0,
+    "delivery": 0,
+    "pickup_lat": 0,
+    "pickup_lon": 0,
+    "delivery_lat": 0,
+    "delivery_lon": 0,
+    "distance": 0,
+    "equipment": 0,
+    "weight": 300,
+    "date": 0,
+    "market_index": 374,
+    "quote_signal": 0,
+    "posted_rate": 0
+  },
+  "missing_validation": {
+    "load_id": 0,
+    "pickup": 0,
+    "delivery": 0,
+    "pickup_lat": 0,
+    "pickup_lon": 0,
+    "delivery_lat": 0,
+    "delivery_lon": 0,
+    "distance": 0,
+    "equipment": 0,
+    "weight": 165,
+    "date": 0,
+    "market_index": 249,
+    "quote_signal": 0
+  },
+  "nonpositive_weights_development": 292,
+  "nonpositive_weights_validation": 145,
+  "duplicate_development_ids": 0,
+  "duplicate_validation_ids": 0,
+  "duplicate_development_features_and_target": 0,
+  "new_validation_pickups": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "new_validation_deliveries": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "rate_per_mile_above_4": 340,
+  "monthly_quote_rpm_correlation": {
+    "2025-01": 0.4467029503575812,
+    "2025-02": 0.4790422823156838,
+    "2025-03": 0.4858422022906782,
+    "2025-04": -0.471742155960304,
+    "2025-05": -0.4592295037448686,
+    "2025-06": 0.4766317214139114,
+    "2025-07": -0.4683451936162613,
+    "2025-08": -0.01359521894345361,
+    "2025-09": 0.4814372474105241,
+    "2025-10": -0.43397322357729556
+  }
+}
